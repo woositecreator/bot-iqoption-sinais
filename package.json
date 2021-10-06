@@ -1,0 +1,32 @@
+{
+  "name": "bot-iqoption",
+  "version": "1.0.0",
+  "description": "Bot da IQ Option utilizando estratégia MHI",
+  "main": "bot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagnerlandio/bot-iqoption.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagnerlandio/bot-iqoption/issues"
+  },
+  "homepage": "https://github.com/vagnerlandio/bot-iqoption#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "multer": "^1.4.3",
+    "node-schedule": "^2.0.0",
+    "request": "^2.88.2",
+    "ws": "^8.2.3"
+  }
+}
